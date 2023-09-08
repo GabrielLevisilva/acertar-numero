@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+        <main>
+            <p>Dê seu palpite
+                <input type="number" name="numtxt" id="numtxt" min="1">
+                <input type="button" value="Conferir" class="btn">
+            </p>
+            <p class="caso-erre"></p>
+            <p class="contador-chances">
+                Você tem mais <span class="chances">10</span> chances
+            </p>
+            <div>
+                <h2>Palpites anteriores</h2>
+                <p class="palpites-anteriores"></p>
+            </div>
+        </main>
+
+        <h1 class="ganhou">Parabéns! O número era <span class="num-certo">--</span> e você acertou!</h1>
+
+        <script src="js/index.js"></script>
+        
+</body>
+</html>

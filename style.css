@@ -1,0 +1,13 @@
+h2{
+    font-size: 1.6em;
+}
+.palpites-anteriores{
+    background-color: antiquewhite;
+    font-size: 1.6em;
+    display: flex;
+    gap: 20px;
+    padding: 0px 20px;
+}
+.ganhou{
+    display: none;
+}
